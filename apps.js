@@ -56,7 +56,7 @@ let random = {
 };
 
 // Checks more ages
-for (i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
     checkAge(random.people[i], random.ages[i]);
 };
 
